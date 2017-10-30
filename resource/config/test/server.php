@@ -5,7 +5,6 @@ return [
     'port'          => 8030,
     'config' => [
         'worker_num' => 2,
-        'dispatch_mode' => 3,
     ],
     'monitor' =>[
         'max_request'   => 100000,            //
